@@ -1,0 +1,12 @@
+{
+  "lastChangelogVersion": "0.74.0",
+  "defaultProvider": "opencode",
+  "defaultModel": "big-pickle",
+  "defaultThinkingLevel": "medium",
+  "enableInstallTelemetry": false,
+  "packages": [
+    "npm:pi-obsidian-vault",
+    "npm:pi-web-access",
+    "npm:context-mode"
+  ]
+}
