@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.74.0",
+  "lastChangelogVersion": "0.80.2",
   "defaultProvider": "opencode",
   "defaultModel": "big-pickle",
   "defaultThinkingLevel": "medium",
@@ -8,6 +8,13 @@
     "npm:pi-obsidian-vault",
     "npm:pi-web-access",
     "npm:context-mode",
-    "npm:pi-zotero"
-  ]
+    "npm:pi-zotero",
+    "npm:pi-headroom"
+  ],
+  "enabledModels": [
+    "openai-codex/gpt-5.5",
+    "opencode/gpt-5.5-pro"
+  ],
+  "hideThinkingBlock": true,
+  "theme": "dark"
 }
