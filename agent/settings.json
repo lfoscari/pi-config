@@ -1,13 +1,16 @@
 {
-  "lastChangelogVersion": "0.74.0",
-  "defaultProvider": "opencode",
-  "defaultModel": "big-pickle",
-  "defaultThinkingLevel": "medium",
+  "lastChangelogVersion": "0.79.10",
+  "defaultProvider": "google",
+  "defaultModel": "gemma-4-31b-it",
+  "defaultThinkingLevel": "minimal",
   "enableInstallTelemetry": false,
   "packages": [
     "npm:pi-obsidian-vault",
     "npm:pi-web-access",
-    "npm:context-mode",
-    "npm:pi-zotero"
-  ]
+    "npm:pi-zotero",
+    "npm:pi-headroom",
+    "npm:context-mode"
+  ],
+  "theme": "light",
+  "hideThinkingBlock": true
 }
