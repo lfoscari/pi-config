@@ -1,0 +1,2 @@
+{"t":"2026-07-17T12:27:48.808Z","kind":"host_capabilities","version":"1.13.14","setModel":true,"registerProvider":true,"sendUserMessage":true,"continueAgent":false,"on":true,"registerCommand":true,"canSwitch":true,"canResume":true,"seamlessResume":false}
+{"t":"2026-07-17T12:27:48.813Z","kind":"session_start","version":"1.13.14","enabled":true,"rotation":1}

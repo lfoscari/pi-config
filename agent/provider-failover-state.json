@@ -1,0 +1,28 @@
+{
+	"stateVersion": 5,
+	"exhaustedUntilByProvider": {
+		"openai-codex": 1784294414000
+	},
+	"exhaustedUntilByModel": {},
+	"invalidatedByProvider": {},
+	"usageByProvider": {
+		"openai-codex": {
+			"provider": "openai-codex",
+			"family": "codex",
+			"fetchedAt": 1784291378366,
+			"credentialHash": "2e65667ab3d2",
+			"plan": "edu",
+			"primary": {
+				"usedPercent": 100,
+				"resetAt": 1784294414000,
+				"windowSeconds": 18000
+			},
+			"secondary": {
+				"usedPercent": 84,
+				"resetAt": 1784569967000,
+				"windowSeconds": 604800
+			},
+			"credits": {}
+		}
+	}
+}
