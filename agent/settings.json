@@ -1,20 +1,17 @@
 {
-  "lastChangelogVersion": "0.80.2",
-  "defaultProvider": "opencode",
-  "defaultModel": "big-pickle",
-  "defaultThinkingLevel": "medium",
+  "lastChangelogVersion": "0.81.1",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.5",
+  "defaultThinkingLevel": "low",
   "enableInstallTelemetry": false,
   "packages": [
     "npm:pi-obsidian-vault",
     "npm:pi-web-access",
     "npm:context-mode",
     "npm:pi-zotero",
-    "npm:pi-headroom"
+    "npm:pi-headroom",
+    "npm:pi-multi-account"
   ],
-  "enabledModels": [
-    "openai-codex/gpt-5.5",
-    "opencode/gpt-5.5-pro"
-  ],
-  "hideThinkingBlock": true,
-  "theme": "dark"
+  "theme": "dark",
+  "hideThinkingBlock": false
 }

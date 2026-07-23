@@ -2,3 +2,7 @@ cache
 sessions
 auth.json
 context-mode
+
+node_modules
+package-lock.json
+package.json

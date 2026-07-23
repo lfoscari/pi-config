@@ -1,0 +1,65 @@
+{
+	"stateVersion": 5,
+	"exhaustedUntilByProvider": {},
+	"exhaustedUntilByModel": {},
+	"invalidatedByProvider": {},
+	"usageByProvider": {
+		"openai-codex": {
+			"provider": "openai-codex",
+			"family": "codex",
+			"fetchedAt": 1784653005459,
+			"credentialHash": "c0d758e4e054",
+			"plan": "edu",
+			"primary": {
+				"usedPercent": 100,
+				"resetAt": 1784658576000,
+				"windowSeconds": 18000
+			},
+			"secondary": {
+				"usedPercent": 36,
+				"resetAt": 1785225973000,
+				"windowSeconds": 604800
+			},
+			"credits": {}
+		},
+		"openai-codex-account-2": {
+			"provider": "openai-codex-account-2",
+			"family": "codex",
+			"fetchedAt": 1784798994510,
+			"credentialHash": "d2fe21561fa1",
+			"plan": "team",
+			"primary": {
+				"usedPercent": 43,
+				"resetAt": 1785258377000,
+				"windowSeconds": 604800
+			},
+			"credits": {
+				"hasCredits": false,
+				"unlimited": false
+			}
+		}
+	},
+	"lastProbeAtByProvider": {
+		"openai-codex-account-2": 1784652055247
+	},
+	"lastSwitches": [
+		{
+			"from": "opencode/gpt-5.6-sol",
+			"to": "openai-codex-account-2/gpt-5.5",
+			"reason": "external provider out of quota: You exceeded your current quota, please check your plan and billing details. For more information on",
+			"at": 1784652055247
+		},
+		{
+			"from": "openai-codex/gpt-5.6-sol",
+			"to": "openai-codex-account-2/gpt-5.5",
+			"reason": "preflight: selected account unavailable",
+			"at": 1784652031029
+		},
+		{
+			"from": "openai-codex/gpt-5.5",
+			"to": "openai-codex-account-2/gpt-5.5",
+			"reason": "assistant error: Codex error: The usage limit has been reached",
+			"at": 1784558598683
+		}
+	]
+}
