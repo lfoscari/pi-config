@@ -12,6 +12,10 @@
     "npm:pi-headroom",
     "npm:pi-multi-account"
   ],
-  "theme": "dark",
-  "hideThinkingBlock": false
+  "enabledModels": [
+    "openai-codex/gpt-5.5",
+    "opencode/gpt-5.5-pro"
+  ],
+  "hideThinkingBlock": false,
+  "theme": "light/dark"
 }
